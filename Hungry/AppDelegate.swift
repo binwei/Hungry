@@ -17,10 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Congiguration of Parse Code in Heroku
         let configuration = ParseClientConfiguration {
-            $0.applicationId = "hungryapp123"
-            $0.clientKey = "qwertyytrewq1234"
-            $0.server = "https://hungryios123.herokuapp.com/parse"
+            
+            //accessing heroku app via id and key
+            $0.applicationId = "hungryios"
+            $0.clientKey = "kfkjfbewjkfb1233124"
+            $0.server = "https://hungryios.herokuapp.com/parse"
         }
         Parse.initializeWithConfiguration(configuration)
         return true
