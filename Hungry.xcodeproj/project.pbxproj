@@ -16,6 +16,8 @@
 		0EC3C2A81D5D9F9E000E6CE4 /* HungryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3C2A71D5D9F9E000E6CE4 /* HungryUITests.swift */; };
 		5F959314B9EFE0E7CC19D02B /* Pods_HungryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1B2B9872AD6538B4802753 /* Pods_HungryTests.framework */; };
 		8BCFFE404E0BFCEEDB4A0F8C /* Pods_Hungry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C347947929721FB6A1886BAB /* Pods_Hungry.framework */; };
+		D80B558C1D625EDC005CB7EB /* ParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B558B1D625EDC005CB7EB /* ParseClient.swift */; };
+		D89DD77D1D62406C0032FE4C /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DD77C1D62406C0032FE4C /* Offer.swift */; };
 		DBCEC06EAE0C5C59151B0493 /* Pods_HungryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4578FED40BD20228F211661 /* Pods_HungryUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		B4578FED40BD20228F211661 /* Pods_HungryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C347947929721FB6A1886BAB /* Pods_Hungry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hungry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74853AF4496A63C33B15C43 /* Pods-HungryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HungryUITests/Pods-HungryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D80B558B1D625EDC005CB7EB /* ParseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseClient.swift; sourceTree = "<group>"; };
+		D89DD77C1D62406C0032FE4C /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				0EC3C28E1D5D9F9E000E6CE4 /* Assets.xcassets */,
 				0EC3C2901D5D9F9E000E6CE4 /* LaunchScreen.storyboard */,
 				0EC3C2931D5D9F9E000E6CE4 /* Info.plist */,
+				D89DD77C1D62406C0032FE4C /* Offer.swift */,
+				D80B558B1D625EDC005CB7EB /* ParseClient.swift */,
 			);
 			path = Hungry;
 			sourceTree = "<group>";
@@ -427,7 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89DD77D1D62406C0032FE4C /* Offer.swift in Sources */,
 				0EC3C28A1D5D9F9E000E6CE4 /* ViewController.swift in Sources */,
+				D80B558C1D625EDC005CB7EB /* ParseClient.swift in Sources */,
 				0EC3C2881D5D9F9E000E6CE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
